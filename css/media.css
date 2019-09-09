@@ -1,0 +1,536 @@
+@media screen and (min-width: 1600px) {
+
+    .about-content {
+        position: relative;
+    }
+
+    .about-content_right {
+        right: -170px;
+        top: -40px;
+    }
+
+    .career-content {
+        position: relative;
+    }
+
+    .career-content_left {
+        left: -150px;
+    }
+
+    .career-content_right {
+        right: -150px;
+        top: -70px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .career-content_left {
+        left: 0%;
+    }
+
+    .career-content_right {
+        right: 6%;
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    .career-content_right {
+        right: 4%;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .career-content_right {
+        right: 0%;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .career-content_left {
+        left: -4%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .career-content_left {
+        left: -8%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .career-content_left {
+        left: -16%;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1140px;
+    }
+
+}
+
+@media screen and (max-width: 1100px) {
+    .services-item_left {
+        overflow: hidden;
+    }
+
+    .about-content_left {
+        width: 680px;
+    }
+
+    .career-content_right {
+        width: 700px;
+    }
+
+    .resume {
+        padding: 118px 50px 80px 60px;
+    }
+
+    .projects-list {
+        width: 800px;
+    }
+
+    .work-content_left {
+        max-width: 430px;
+    }
+
+    .work-list {
+        padding-left: 20px;
+    }
+
+    .footer {
+        padding: 32px 0;
+    }
+
+    .contacts-content_right {
+        margin-right: -30%;
+    }
+
+    .work-content_left {
+        padding-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .resume {
+        padding: 118px 31px 80px 140px;
+    }
+
+    .services-item_right {
+        overflow: hidden;
+    }
+
+    .typo-content_right {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 930px) {
+    
+}
+
+@media screen and (max-width: 850px) {
+    
+}
+
+@media screen and (max-width: 800px) {
+    
+}
+
+@media screen and (max-width: 769px) {
+    .services-item {
+        flex-wrap: wrap;
+    }
+
+    .services-item_left {
+        width: 100%;
+    }
+
+    .services-item_left img {
+        width: 100%;
+    }
+
+    .services-item_right {
+        width: 100%;
+    }
+
+    .service-item-1 .services-item_right {
+        order: 0;
+        margin-bottom: 20px;
+    }
+
+    .service-item-1 .services-item_left {
+        order: 1;
+    }
+
+    .service-item-2 .services-item_left {
+        margin-bottom: 20px;
+    }
+
+    .service-item-2 .services-item_right img {
+        width: 100%;
+    }
+
+    .service-item-2 h3, .service-item-4 h3 {
+        margin-top: 0;
+    }
+
+    .service-item-3 .services-item_left,
+    .service-item-5 .services-item_left {
+        order: 1;
+    }
+
+    .service-item-3 .services-item_right,
+    .service-item-5 .services-item_right {
+        margin-bottom: 20px;
+    }
+
+    .service-item-4 .services-item_left {
+        margin-bottom: 20px;
+    }
+
+    .service-item-4 .services-item_right img {
+        width: 100%;
+    }
+
+    .service-item-5 h3 {
+        margin-top: 0;
+    }
+
+    .partners-list {
+        padding-left: 0;
+    }
+
+    .partners-list {
+        margin-right: 30px;
+    }
+
+    .projects-list {
+        width: 100%;
+    }
+
+    .about-content_left {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .about-content_right,
+    .about-content_right img {
+        width: 100%;
+    }
+
+    .career-content_left {
+        display: none;
+    }
+
+    .career-content_right {
+        position: relative;
+        width: 100%;
+        top: 0;
+        height: auto;
+    }
+
+    .resume {
+        padding: 40px;
+    }
+
+    .work-content_right {
+        display: none;
+    }
+
+    .work {
+        margin-top: 30px;
+    }
+
+    .work-content_left {
+        max-width: 100%;
+    }
+
+    .question {
+        padding-top: 40px;
+    }
+
+    .ac-container input:checked ~ article {
+        height: auto;
+    }
+
+    .question-content {
+        padding: 30px;
+    }
+
+    .customers-content_left {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .customers-content_left img {
+        width: 100%;
+    }
+
+    .customers-content {
+        position: relative;
+    }
+
+    .customers-content_right {
+        position: absolute;
+        top: 50%;
+        padding: 20px;
+        background: rgba(255, 255, 255, 0.7);
+        transform: translateY(-50%);
+        border: 0;
+    }
+
+    .customers-list {
+        justify-content: space-evenly;
+    }
+
+    .contacts-content {
+        display: block;
+    }
+
+    .contacts-content_right {
+        position: relative;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    .contacts-content_right iframe {
+        width: 100%;
+    }
+
+    .address {
+        display: none;
+    }
+
+    .offer {
+        padding: 100px 0;
+    }
+
+    .services {
+        padding-top: 40px;
+    }
+
+    .projects {
+        padding-top: 20px;
+    }
+
+    .projects-list {
+        padding: 20px;
+    }
+
+    .resume {
+        padding: 30px 20px;
+    }
+
+    .customers {
+        padding-top: 40px;
+    }
+
+    .partners {
+        padding-top: 40px;
+    }
+
+    .partners-slider {
+        width: auto;
+    }
+
+    .contacts {
+        margin-top: 40px;
+    }
+
+    .footer-content {
+        display: block;
+        text-align: center;
+    }
+
+    .about-content_left {
+        padding: 20px;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    
+}
+
+@media screen and (max-width: 660px) {
+        .phone {
+            display: none;
+        }
+
+        .logo img {
+            width: 70px;
+            height: 70px;
+        }
+
+        .logo span {
+            width: 75px;
+            font-size: 12px;
+            line-height: 16px;
+        }
+
+        .header-top_right {
+            display: none;
+        }
+
+        .header-bottom_contacts {
+            display: block;
+        }
+        
+        .menu {
+            display: none;
+            text-align: center;
+        }
+
+        .menu-item {
+            padding: 10px 0;
+        }
+
+        .service-btn {
+            margin-top: 20px;
+        }
+
+        .burger-menu {
+            display: block;
+            width: 30px;
+            cursor: pointer;
+        }
+
+        .burger-menu img {
+            width: 100%;
+        }
+
+        .header-top {
+            justify-content: space-between;
+        }
+
+        .close-menu {
+            width: 30px;
+        }
+
+        .close-menu img {
+            width: 100%;
+        }
+
+        .offer-title {
+            width: 100%;
+            font-size: 25px;
+            line-height: 34px;
+        }
+
+        .menu {
+            transition: all .5s ease-in-out;
+        }
+
+        h2 {
+            font-size: 30px;
+            line-height: 30px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 20px;
+        }
+
+        .services-item_text {
+            font-size: 16px;
+        }
+
+        .projects-content {
+            display: block;
+        }
+
+        .partners-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-right: 0;
+        }
+
+        .projects-item_text {
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        .about-content_text p {
+            font-size: 16px;
+            line-height: 18px;
+            margin-bottom: 20px;
+        }
+
+        .resume-title {
+            font-size: 20px;
+        }
+
+        .career {
+            padding-top: 40px;
+            min-height: auto;
+        }
+
+        .work {
+            margin-top: 50px;
+        }
+
+        .work-content_left {
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+
+        .ac-container label {
+            font-size: 20px;
+            line-height: 20px;
+        }
+
+        .customers-item {
+            max-width: 120px;
+        }
+
+        .customers-item img {
+            max-width: 100%;
+        }
+
+        .typo {
+            padding-top: 40px;
+        }
+
+        .typo-content_right {
+            display: none;
+        }
+
+        .arcticmodal-container_i {
+            width: 100%;
+            margin: 0;
+        }
+
+        .box-modal {
+            width: 100%;
+        }
+}
+
+@media screen and (max-width: 600px) {
+   
+}
+
+@media screen and (max-width: 580px) {
+   
+}
+
+@media screen and (max-width: 380px) {
+    .ac-container label {
+        font-size: 19px;
+    }
+
+    .customers-item {
+        margin-bottom: 20px;
+    }
+
+    .partners-slider_title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 321px) {
+    
+}
