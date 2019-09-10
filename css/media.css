@@ -386,6 +386,7 @@
 
     .box-modal {
         min-height: auto;
+        border-radius: 15px;
     }
 
     .modal-copyright {
@@ -459,6 +460,8 @@
     .modal-buy .modal-logo-block {
         top: -14%!important;
     }
+
+    
 }
 
 @media screen and (max-width: 600px) {
