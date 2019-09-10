@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="js/arcticmodal/jquery.arcticmodal-0.3.css">
   <!-- arcticModal theme -->
   <link rel="stylesheet" href="js/arcticmodal/themes/simple.css">
+  <!-- Slick slider -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/media.css">
   <!--OG-->
@@ -67,1150 +70,1152 @@
           <div class="plans-title">
               Proxy plans
           </div>
-          <div class="plans-titles">
-              <div class="plans-titles_item">
-                  Тарифы
-              </div>
-              <div class="plans-titles_item">
-                    В сети
-              </div>
-              <div class="plans-titles_item">
-                    Потоки
-              </div>
-              <div class="plans-titles_item">
-                    Час
-              </div>
-              <div class="plans-titles_item">
-                    День
-              </div>
-              <div class="plans-titles_item">
-                    Неделя
-              </div>
-              <div class="plans-titles_item">
-                    Месяц
-              </div>
-          </div>
-          <div class="plans-list">
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #1
+          <div class="plans-block">
+                <div class="plans-titles">
+                    <div class="plans-titles_item">
+                        Тарифы
                     </div>
-                    <div class="plans-item_text">
-                        4000
+                    <div class="plans-titles_item">
+                            В сети
                     </div>
-                    <div class="plans-item_text">
-                        500
+                    <div class="plans-titles_item">
+                            Потоки
                     </div>
-                    <div class="plans-item_text">
-                        $10
+                    <div class="plans-titles_item">
+                            Час
                     </div>
-                    <div class="plans-item_text">
-                        $50
+                    <div class="plans-titles_item">
+                            День
                     </div>
-                    <div class="plans-item_text">
-                        $300
+                    <div class="plans-titles_item">
+                            Неделя
                     </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $1200
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
+                    <div class="plans-titles_item">
+                            Месяц
                     </div>
                 </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
+                <div class="plans-list">
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #1
+                            </div>
+                            <div class="plans-item_text">
+                                4000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $10
+                            </div>
+                            <div class="plans-item_text">
+                                $50
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $1200
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
                             </div>
                         </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
                                     </div>
                                 </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $1200
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
                             </div>
                         </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
                     </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #2
+                            </div>
+                            <div class="plans-item_text">
+                                8000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $18
+                            </div>
+                            <div class="plans-item_text">
+                                $100
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $2400
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
+                            </div>
                         </div>
-                        <div class="amount">
-                            $1200
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $2400
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                            </div>
                         </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                    </div>          
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #3
+                            </div>
+                            <div class="plans-item_text">
+                                12000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $30
+                            </div>
+                            <div class="plans-item_text">
+                                $150
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $3600
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
+                            </div>
+                        </div>
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $3600
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                            </div>
+                        </div>
+                    </div>  
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #4
+                            </div>
+                            <div class="plans-item_text">
+                                16000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $40
+                            </div>
+                            <div class="plans-item_text">
+                                $200
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $4800
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
+                            </div>
+                        </div>
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $4800
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                            </div>
+                        </div>
                     </div>
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #5
+                            </div>
+                            <div class="plans-item_text">
+                                20000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $70
+                            </div>
+                            <div class="plans-item_text">
+                                $250
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $6000
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
+                            </div>
+                        </div>
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $6000
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #6
+                            </div>
+                            <div class="plans-item_text">
+                                24000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $80
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $7200
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
+                            </div>
+                        </div>
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $7200
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #7
+                            </div>
+                            <div class="plans-item_text">
+                                28000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $120
+                            </div>
+                            <div class="plans-item_text">
+                                $350
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $8400
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
+                            </div>
+                        </div>
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $8400
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #8
+                            </div>
+                            <div class="plans-item_text">
+                                32000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $150
+                            </div>
+                            <div class="plans-item_text">
+                                $400
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $9600
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
+                            </div>
+                        </div>
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $9600
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #9
+                            </div>
+                            <div class="plans-item_text">
+                                36000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $180
+                            </div>
+                            <div class="plans-item_text">
+                                $450
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $10800
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
+                            </div>
+                        </div>
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $10800
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="plans-item-group">
+                        <div class="plans-item">
+                            <div class="plans-item_text">
+                                #10
+                            </div>
+                            <div class="plans-item_text">
+                                40000
+                            </div>
+                            <div class="plans-item_text">
+                                500
+                            </div>
+                            <div class="plans-item_text">
+                                $200
+                            </div>
+                            <div class="plans-item_text">
+                                $500
+                            </div>
+                            <div class="plans-item_text">
+                                $300
+                            </div>
+                            <div class="plans-item_text plans-item-text_last">
+                                $12000
+                            </div>
+                            <div class="plans-item_button">
+                                <button class="button2 buy btn-toggle-active">Купить</button>
+                                <button class="button cancel btn-toggle-active">Отмена</button>
+                            </div>
+                        </div>
+                        <div class="plans-info">
+                            <div class="plans-info-list">
+                                <div class="plans-info-item">
+                                    <div class="plans-info-item_title">
+                                        Кол-во IP в день <span>24000</span>
+                                    </div>                            
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Потоки</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>500</option>
+                                                    <option>1000</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 100 потоков = $50
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">                       
+                                        <label>Страна</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>MIX</option>
+                                                    <option>MIX2</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Трафик</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 ТБ</option>
+                                                    <option>2 ТБ</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="plans-select_text">
+                                            + 1 ТБ = $250
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>Период</label>
+                                        <div class="select position-relative">
+                                            <div class="dropdown bootstrap-select">
+                                                <select class="selectpicker" tabindex="-98">
+                                                    <option>1 месяц</option>
+                                                    <option>2 месяца</option>
+                                                </select>
+                                            </div>
+                                        </div>    
+                                    </div>
+                                </div> 
+                                <div class="plans-info-item">
+                                    <div class="plans-select">
+                                        <label>IP</label>
+                                        <input type="text">   
+                                        <button class="plans-info-item_button">+</button>
+                                    </div>
+                                </div> 
+                            </div>
+                            <div class="plans-info-total">
+                                <div class="plans-info-total_title">
+                                    К оплате
+                                </div>
+                                <div class="amount">
+                                    $12000
+                                </div>
+                                <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
+                            </div>
+                        </div>
+                    </div>            
                 </div>
-            </div>
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #2
-                    </div>
-                    <div class="plans-item_text">
-                        8000
-                    </div>
-                    <div class="plans-item_text">
-                        500
-                    </div>
-                    <div class="plans-item_text">
-                        $18
-                    </div>
-                    <div class="plans-item_text">
-                        $100
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $2400
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
-                    </div>
-                </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
-                        </div>
-                        <div class="amount">
-                            $2400
-                        </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
-                    </div>
-                </div>
-            </div>          
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #3
-                    </div>
-                    <div class="plans-item_text">
-                        12000
-                    </div>
-                    <div class="plans-item_text">
-                        500
-                    </div>
-                    <div class="plans-item_text">
-                        $30
-                    </div>
-                    <div class="plans-item_text">
-                        $150
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $3600
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
-                    </div>
-                </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
-                        </div>
-                        <div class="amount">
-                            $3600
-                        </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
-                    </div>
-                </div>
-            </div>  
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #4
-                    </div>
-                    <div class="plans-item_text">
-                        16000
-                    </div>
-                    <div class="plans-item_text">
-                        500
-                    </div>
-                    <div class="plans-item_text">
-                        $40
-                    </div>
-                    <div class="plans-item_text">
-                        $200
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $4800
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
-                    </div>
-                </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
-                        </div>
-                        <div class="amount">
-                            $4800
-                        </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
-                    </div>
-                </div>
-            </div>
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #5
-                    </div>
-                    <div class="plans-item_text">
-                        20000
-                    </div>
-                    <div class="plans-item_text">
-                        500
-                    </div>
-                    <div class="plans-item_text">
-                        $70
-                    </div>
-                    <div class="plans-item_text">
-                        $250
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $6000
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
-                    </div>
-                </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
-                        </div>
-                        <div class="amount">
-                            $6000
-                        </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
-                    </div>
-                </div>
-            </div>
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #6
-                    </div>
-                    <div class="plans-item_text">
-                        24000
-                    </div>
-                    <div class="plans-item_text">
-                        500
-                    </div>
-                    <div class="plans-item_text">
-                        $80
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $7200
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
-                    </div>
-                </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
-                        </div>
-                        <div class="amount">
-                            $7200
-                        </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
-                    </div>
-                </div>
-            </div>
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #7
-                    </div>
-                    <div class="plans-item_text">
-                        28000
-                    </div>
-                    <div class="plans-item_text">
-                        500
-                    </div>
-                    <div class="plans-item_text">
-                        $120
-                    </div>
-                    <div class="plans-item_text">
-                        $350
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $8400
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
-                    </div>
-                </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
-                        </div>
-                        <div class="amount">
-                            $8400
-                        </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
-                    </div>
-                </div>
-            </div>
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #8
-                    </div>
-                    <div class="plans-item_text">
-                        32000
-                    </div>
-                    <div class="plans-item_text">
-                        500
-                    </div>
-                    <div class="plans-item_text">
-                        $150
-                    </div>
-                    <div class="plans-item_text">
-                        $400
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $9600
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
-                    </div>
-                </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
-                        </div>
-                        <div class="amount">
-                            $9600
-                        </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
-                    </div>
-                </div>
-            </div>
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #9
-                    </div>
-                    <div class="plans-item_text">
-                        36000
-                    </div>
-                    <div class="plans-item_text">
-                        500
-                    </div>
-                    <div class="plans-item_text">
-                        $180
-                    </div>
-                    <div class="plans-item_text">
-                        $450
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $10800
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
-                    </div>
-                </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
-                        </div>
-                        <div class="amount">
-                            $10800
-                        </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
-                    </div>
-                </div>
-            </div>
-            <div class="plans-item-group">
-                <div class="plans-item">
-                    <div class="plans-item_text">
-                        #10
-                    </div>
-                    <div class="plans-item_text">
-                        40000
-                    </div>
-                    <div class="plans-item_text">
-                        500
-                    </div>
-                    <div class="plans-item_text">
-                        $200
-                    </div>
-                    <div class="plans-item_text">
-                        $500
-                    </div>
-                    <div class="plans-item_text">
-                        $300
-                    </div>
-                    <div class="plans-item_text plans-item-text_last">
-                        $12000
-                    </div>
-                    <div class="plans-item_button">
-                        <button class="button2 buy btn-toggle-active">Купить</button>
-                        <button class="button cancel btn-toggle-active">Отмена</button>
-                    </div>
-                </div>
-                <div class="plans-info">
-                    <div class="plans-info-list">
-                        <div class="plans-info-item">
-                            <div class="plans-info-item_title">
-                                Кол-во IP в день <span>24000</span>
-                            </div>                            
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Потоки</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>500</option>
-                                            <option>1000</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 100 потоков = $50
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">                       
-                                <label>Страна</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>MIX</option>
-                                            <option>MIX2</option>
-                                        </select>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Трафик</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 ТБ</option>
-                                            <option>2 ТБ</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="plans-select_text">
-                                    + 1 ТБ = $250
-                                </div>
-                            </div>
-                        </div>
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>Период</label>
-                                <div class="select position-relative">
-                                    <div class="dropdown bootstrap-select">
-                                        <select class="selectpicker" tabindex="-98">
-                                            <option>1 месяц</option>
-                                            <option>2 месяца</option>
-                                        </select>
-                                    </div>
-                                </div>    
-                            </div>
-                        </div> 
-                        <div class="plans-info-item">
-                            <div class="plans-select">
-                                <label>IP</label>
-                                <input type="text">   
-                                <button class="plans-info-item_button">+</button>
-                            </div>
-                        </div> 
-                    </div>
-                    <div class="plans-info-total">
-                        <div class="plans-info-total_title">
-                            К оплате
-                        </div>
-                        <div class="amount">
-                            $12000
-                        </div>
-                        <button class="button2" onclick="$('.modal-buy').arcticmodal()">Оплатить</button>
-                    </div>
-                </div>
-            </div>            
           </div>
       </div>
   </section>
@@ -1497,6 +1502,7 @@
   <script src="js/bootstrap-select.min.js"></script>
   <!-- arcticModal -->
   <script src="js/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
+  <script src="slick/slick.min.js"></script>
   <script src="https://www.amcharts.com/lib/3/ammap.js" type="text/javascript"></script>
   <script src="https://www.amcharts.com/lib/3/maps/js/worldHigh.js" type="text/javascript"></script>
   <script src="https://www.amcharts.com/lib/3/themes/dark.js" type="text/javascript"></script>
