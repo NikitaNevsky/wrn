@@ -6,7 +6,7 @@ $(document).ready(function () {
 
 $(window).resize(function () {
     var width = $('body').innerWidth()
-    if (width < 426) {
+    if (width < 660) {
         $('.plans-list').slick({
             dots: true,
             arrows: false,

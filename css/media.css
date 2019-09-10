@@ -113,6 +113,32 @@
     .plans-info {
         padding: 30px 30px 0px 30px;
     }
+
+    .arcticmodal-container_i {
+        width: 100%;
+    }
+
+    .box-modal {
+        width: 100%;
+    }
+
+    .modal-block1 {
+        left: -75%;
+        top: -65%;
+    }
+
+    .modal-authorization-block {
+        z-index: 1;
+        right: -25%;
+    }
+
+    .box-modal_close {
+        z-index: 2;
+    }
+
+    .modal-logo-block {
+        left: -40%;
+    }
 }
 
 @media screen and (max-width: 720px) {
@@ -314,6 +340,125 @@
     .plans-info-total {
         width: 100%;
     }
+
+    .box-modal {
+        padding: 20px;
+    }
+
+    .modal-header-content .authorization {
+        margin-top: 0;
+    }
+
+    .box-modal_close {
+        right: 30px;
+        top: 30px;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .form .button2 {
+        width: 100%;
+    }
+
+    .modal-block1 {
+        display: none;
+    }
+
+    .modal-header-content .logo img {
+        width: 80px;
+    } 
+
+    .modal-header-content .logo {
+        display: flex;
+        align-items: center;
+    }
+
+    .modal-logo-block {
+        left: -101%;
+        top: -53%;
+    }
+
+    .box-modal h2 {
+        margin-top: 60px;
+    }
+
+    .box-modal {
+        min-height: auto;
+    }
+
+    .modal-copyright {
+        margin-top: 40px;
+    }
+
+    #signin .modal-logo-block {
+        top: -39%;
+    }
+
+    .buy-content {
+        display: block;
+    }
+
+    .buy-content_left {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .buy-content_right {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .pay-code {
+        display: block;
+    }
+
+    .system-list {
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+
+    .pay-code_logo {
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .pay-code input {
+        width: 100%;
+    }
+
+    .copy {
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .buy-content-btn {
+        width: 100%;
+    }
+
+    .success-icon {
+        margin: 40px 0;
+    }
+
+    .success-icon img {
+        width: 90px;
+    }
+
+    .success-btn {
+        width: 100%;
+    }
+
+    .success-close {
+        margin-bottom: 0;
+    }
+
+    .modal-buy .modal-logo-block {
+        top: -14%!important;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -324,20 +469,55 @@
    
 }
 
+@media screen and (max-width: 415px) {
+    .logo-block {
+        left: -125%;
+        top: -49%;
+    }
+
+    .modal-buy .modal-logo-block {
+        left: -107%;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .logo-block {
+        left: -125%;
+    }
+}
+
 @media screen and (max-width: 380px) {
     .logo-block {
         left: -145%;
+        top: -44%;
     }   
 
     .logo img {
         width: 70px;
     }
+
+    .modal-logo-block {
+        left: -122%;
+        top: -51%;
+    }
+
+    .modal-buy .modal-logo-block {
+        left: -120%;
+    }
     
 }
+
+@media screen and (max-width: 361px) {
+    .logo-block {
+        left: -152%;
+    }
+}
+
 
 @media screen and (max-width: 321px) {
     .logo-block {
         left: -174%;
+        top: -62%;
     }
 
     .button {
@@ -347,5 +527,42 @@
     .button, .button2 {
         width: 80px;
         font-size: 14px;
+    }
+
+    .modal-logo-block {
+        left: -130%;
+    }
+
+    .modal-header-content .logo img {
+        width: 60px;
+    }
+
+    .form input {
+        font-size: 15px;
+    }
+
+    .reminders a {
+        font-size: 15px;
+    }
+
+    .form-input label {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .arcticmodal-container_i2 {
+        padding: 0;
+    }
+
+    .box-modal {
+        border-radius: 0;
+    }
+
+    .buy-content-btn {
+        width: 100%;
+    }
+
+    .success-btn {
+        width: 100%;
     }
 }
