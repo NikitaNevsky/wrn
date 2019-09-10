@@ -460,7 +460,6 @@
     .modal-buy .modal-logo-block {
         top: -14%!important;
     }
-
     
 }
 
@@ -509,6 +508,10 @@
     }
 
     .modal-buy .modal-logo-block {
+        left: -120%;
+    }
+
+    #signin .modal-logo-block {
         left: -120%;
     }
     
