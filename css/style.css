@@ -269,25 +269,26 @@ input:focus {
     transition: all .3s ease;
     color: #2B7DFF;
     margin-right: 30px;    
-    background: #fff;	
+    background: transparent;	
     transition: all .3s ease;
     border-radius: 100rem;
     font-size: 17px;
-    border: solid 1px transparent;
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(96.09deg, #227AFF -3.84%, #A698FF 102.1%);
-    background-origin: border-box;
-    background-clip: content-box, border-box;
-    box-shadow: 2px 1000px 1px #f5f7f9 inset;
+    border: 1px solid #2B7DFF;
     cursor: pointer;
 }
 
 .button:hover {
     color: #fff;
-    box-shadow: none;
+    background: #2B7DFF;
+}
+
+.button:active {
+    margin-top: 1px;
 }
 
 .button:not(:disabled):not(.disabled).active, .button:not(:disabled):not(.disabled):active {
-    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(96.09deg, #227AFF -3.84%, #A698FF 102.1%);
+    background-image: #2B7DFF;
+    color: #fff;
 }
 
 .button2 {
@@ -309,7 +310,12 @@ input:focus {
 
 .button2:hover {
     color: #fff;
-    box-shadow: 0px 0px 10px #B6CAD7;
+    /* box-shadow: 0px 0px 10px #B6CAD7; */
+    background: linear-gradient(-10.91deg, #A698FF -3.84%, #227AFF 102.1%);
+}
+
+.button2:active {
+    margin-top: 1px;
 }
 
 .authorization-block {
@@ -819,6 +825,16 @@ input:focus {
 
 .bootstrap-select:not([class*=col-]):not([class*=form-control]):not(.input-group-btn) {
     width: 284px;
+    outline: none!important;
+}
+
+.bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    outline: none;
+}
+
+.bootstrap-select .dropdown-toggle:focus, 
+.bootstrap-select>select.mobile-device:focus+.dropdown-toggle {
+    outline: none;
 }
 
 .plans-info-list {
@@ -923,4 +939,134 @@ input:focus {
 
 .plans-item-group.active .plans-item {
     border-radius: 10px 10px 0 0;
+}
+
+.dropup .dropdown-toggle::after {
+    border-top: 0; */
+    /* border-right: .3em solid transparent; */
+    /* border-bottom: .3em solid; */
+    border-left: 0;
+    width: 10px;
+    height: 10px;
+}
+
+.modal-buy .modal-block1 {
+    top: -450px;
+    left: -460px;
+}
+
+.buy-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.buy-content_left {
+    width: 334px;
+    height: 447px;
+    background: #FFFFFF;
+    box-shadow: 0px 22px 34px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;    
+    padding-top: 20px;
+    margin-right: 90px;
+}
+
+.logo-small {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.buy-content-list {
+    position: relative;
+    padding: 0px 40px;
+}
+
+.buy-content-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.buy-content-item_title {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 37px;
+    letter-spacing: 0.01em;
+    color: #91A0AB;
+}
+
+.buy-content-item span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 42px;
+    letter-spacing: 0.01em;
+    color: #267BFF;
+}
+
+.circle-list {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: -5px;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.circle-item {
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.buy-content_amount {
+    position: relative;
+    margin-top: 42px;
+}
+
+.buy-content_amount span {
+    background: #F2F4F7;
+    height: 107px;
+    font-weight: normal;
+    font-size: 41px;
+    line-height: 75px;
+    letter-spacing: 0.01em;
+    color: #505E75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 22px;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.buy-content_right {
+    width: 240px;
+}
+
+.buy-content_right .button2 {
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.buy-content_right h2 {
+    margin-top: 0!important;
+}
+
+.system-list {
+    margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.system-item {
+    margin-bottom: 65px;
+}
+
+.system-item img {
+    max-width: 174px;
 }
