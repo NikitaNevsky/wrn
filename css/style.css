@@ -1070,3 +1070,121 @@ input:focus {
 .system-item img {
     max-width: 174px;
 }
+
+.qr {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.pay-code {
+    display: flex;
+    position: relative;
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.pay-code input {
+    width: 422px;
+    height: 50px;
+    background: #F3F5FB;
+    box-shadow: inset 0px 2px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    border: 0;
+    padding: 0 50px;
+    display: block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    color: #BABABA;
+    margin-right: 15px;
+}
+
+.pay-code_logo {
+    margin-right: 40px;
+}
+
+.copy {
+    background: transparent;
+    border: 0;
+    cursor: pointer;  
+    transition: all .3s ease;  
+}
+
+.copy:hover {
+    opacity: 0.7;
+}
+
+.copy img {
+    width: 22px;
+}
+
+.buy-content-btn {
+    width: 669px;
+    height: 50px;
+    margin: 40px auto 0;
+    display: flex;
+    justify-content: center;
+}
+
+.buy-content-btn:active {
+    margin-top: 39px;
+}
+
+.success-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.success-text {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #686868;
+    margin-bottom: 20px;
+}
+
+.success-btn {
+    width: 669px;
+    height: 50px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-right: auto!important;
+}
+
+.success-btn:active {
+    margin-top: 20px;
+}
+
+.success-close {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.01em;
+    text-decoration-line: underline;
+    color: #2B7DFF;
+    margin-top: 20px;
+    margin-bottom: 105px;
+    transition: all .3s ease;
+    text-align: center;
+    display: block;
+}
+
+.success-close:hover {
+    color: #2B7DFF;
+    text-decoration: none;
+}
+
+.modal-buy .modal-block2 {
+    right: -410px;
+    left: auto;
+}
