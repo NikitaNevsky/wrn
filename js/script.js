@@ -1,6 +1,11 @@
 $(document).ready(function () {    
 
     $('select').selectpicker();
+
+    $(".outer").click(function() {
+	  $(".box-modal").hide();
+	  $(this).hide();
+	})
     
 });
 

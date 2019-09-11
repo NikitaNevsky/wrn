@@ -190,8 +190,7 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
                                 </div> 
@@ -302,11 +301,10 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="plans-info-total">
                                 <div class="plans-info-total_title">
@@ -414,11 +412,10 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="plans-info-total">
                                 <div class="plans-info-total_title">
@@ -526,8 +523,7 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
                                 </div> 
@@ -638,11 +634,10 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="plans-info-total">
                                 <div class="plans-info-total_title">
@@ -750,11 +745,10 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="plans-info-total">
                                 <div class="plans-info-total_title">
@@ -862,11 +856,10 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="plans-info-total">
                                 <div class="plans-info-total_title">
@@ -974,11 +967,10 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="plans-info-total">
                                 <div class="plans-info-total_title">
@@ -1086,11 +1078,10 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="plans-info-total">
                                 <div class="plans-info-total_title">
@@ -1198,11 +1189,10 @@
                                 </div> 
                                 <div class="plans-info-item">
                                     <div class="plans-select">
-                                        <label>IP</label>
-                                        <input type="text">   
+                                        <input type="text" placeholder="IP">   
                                         <button class="plans-info-item_button">+</button>
                                     </div>
-                                </div> 
+                                </div>
                             </div>
                             <div class="plans-info-total">
                                 <div class="plans-info-total_title">
@@ -1453,10 +1443,18 @@
                     <h2>Системы</h2>
                     <div class="system-list">
                         <div class="system-item">
-                            <a href="#"><img src="img/bitcoin.svg" alt="Bitcoin"></a>
+                            <label class="label__pay" for="1.1">
+                                <input name="kids" class="input__pay" type="radio" name="1" id="1.1" checked>
+                                <img src="img/bitcoin.svg" alt="Bitcoin">
+                            </label>
+                            <!-- <a href="#"><img src="img/bitcoin.svg" alt="Bitcoin"></a> -->
                         </div>
                         <div class="system-item">
-                            <a href="#"><img src="img/epayments.png" alt="epayments"></a>
+                            <label class="label__pay" for="1.2">
+                                <input name="kids" class="input__pay" type="radio" name="1" id="1.2">
+                                <img src="img/epayments.png" alt="epayments">
+                            </label>
+                            <!-- <a href="#"><img src="img/epayments.png" alt="epayments"></a> -->
                         </div>
                     </div>
                     <button class="button2">Далее</button>
@@ -1496,6 +1494,8 @@
         </div>
     </div> 
 
+    <div class="outer"></div>
+
   <script src="js/jquery-3.3.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
@@ -1510,6 +1510,7 @@
   <script type="text/javascript">
     var map = AmCharts.makeChart("mapdiv",{
     type: "map",
+    language: "ru",
     theme: "dark",
     projection: "mercator",
     panEventsEnabled : true,
