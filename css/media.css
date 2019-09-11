@@ -484,6 +484,11 @@
     #signin .modal-logo-block {
         left: -107%;
     }
+
+    .modal-logo-block {
+        left: -110%;
+        top: -52%;
+    }
 }
 
 @media screen and (max-width: 410px) {
@@ -495,7 +500,7 @@
 @media screen and (max-width: 380px) {
     .logo-block {
         left: -145%;
-        top: -44%;
+        top: -52%;
     }   
 
     .logo img {
@@ -517,9 +522,34 @@
     
 }
 
+@media screen and (max-width: 376px) {
+    .logo-block {
+        top: -44%;
+    }   
+
+    .modal-logo-block {
+        top: -51%;
+    }
+}
+
 @media screen and (max-width: 361px) {
     .logo-block {
         left: -152%;
+        top: -54%;
+    }
+
+    .modal-logo-block {
+        left: -129%;
+        top: -50%;
+    }
+
+    .reminders button {
+        font-size: 16px;
+    }
+
+    #signin .modal-logo-block {
+        left: -130%;
+        top: -37%;
     }
 }
 
@@ -541,6 +571,7 @@
 
     .modal-logo-block {
         left: -130%;
+        top: -51%;
     }
 
     .modal-header-content .logo img {
